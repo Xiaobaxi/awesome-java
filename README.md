@@ -167,8 +167,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
 * [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
 * [FreeBuilder](https://github.com/google/FreeBuilder) - Automatic generation of the Builder pattern.
-* [Immutables](http://immutables.github.io/) - Java annotation processors to generate simple, safe and consistent value objects.
+* [Immutables](http://immutables.github.io/) - Annotation processors to generate simple, safe and consistent value objects.
 * [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
+* [Joda-Beans](http://www.joda.org/joda-beans/) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
 * [Lombok](https://projectlombok.org/) - Code generator which aims to reduce verbosity.
 
 ## Command-line Argument Parsers
@@ -207,6 +208,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools which support continuously building, testing and releasing applications.*
 
 * [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
+* [Concourse](https://concourse.ci/) - Provides dockerized pipeline with configuration that can be save in version control.
 * [fabric8](http://fabric8.io/) - Integration platform for containers.
 * [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
@@ -396,8 +398,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
 * [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
+* [Eclipse Collections](https://github.com/eclipse/eclipse-collections) - Collections framework inspired by Smalltalk.
 * [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections.
-* [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
@@ -506,6 +508,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [javaslang-circuitbreaker](https://github.com/javaslang/javaslang-circuitbreaker) - Functional fault tolerance library.
 * [JBake](http://jbake.org) - Static website generator.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
+* [Joda-Money](http://www.joda.org/joda-money/) - Basic currency and money classes and algorithms not provided by the JDK.
 * [JPad](http://jpad.io/) - Snippet runner.
 * [Lanterna](https://github.com/mabe02/lanterna) - Easy console text GUI library similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
@@ -728,6 +731,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests.
 * [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) - Descriptive behavioural specification framework.
 * [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
+* [MockServer](http://www.mock-server.com/) - Allows mocking of systems that are integrated with HTTP/S.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
 * [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
@@ -737,7 +741,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Spock](http://spockframework.github.io/spock/docs/) - JUnit-compatible framework featuring an expressive Groovy-derived specification language.
 * [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
-* [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
+* [WireMock](http://wiremock.org/) - Stubs and mocks web services.
 
 ## Utility
 
