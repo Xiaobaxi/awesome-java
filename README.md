@@ -137,7 +137,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks which can dynamically manage applications inside of a cluster.*
 
 * [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
-* [Apache Mesos](http://mesos.apache.org/) -  Abstracts CPU, memory, storage, and other compute resources away from machines.
+* [Apache Mesos](http://mesos.apache.org/) - Abstracts CPU, memory, storage, and other compute resources away from machines.
 * [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
 
 ## Code Analysis
@@ -151,6 +151,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
+* [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
 
 ## Code Coverage
 
@@ -361,6 +362,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Javaslang](http://www.javaslang.io/) - Functional component library that provides persistent data types and functional control structures.
 * [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 * [protonpack](https://github.com/poetix/protonpack) - Collection of stream utilities.
+* [StreamEx](https://github.com/amaembo/streamex) - Enhancing Java 8 Streams.
 
 ## Game Development
 
@@ -512,6 +514,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JPad](http://jpad.io/) - Snippet runner.
 * [Lanterna](https://github.com/mabe02/lanterna) - Easy console text GUI library similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
+* [Membrane Service Proxy](https://github.com/membrane/service-proxy) - An open source, reverse proxy framework written in Java.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Detect uses of legacy Java APIs.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
@@ -521,7 +524,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools for managing microservices, i.e. creation, coordination or discovery.*
 
-* [Apollo](https://spotify.github.io/apollo/) -  Libraries for writing composable microservices.
+* [Apollo](https://spotify.github.io/apollo/) - Libraries for writing composable microservices.
+* [consul-api](https://github.com/Ecwid/consul-api) - Client for the [Consul](https://www.consul.io/) API a distributed, highly available and datacenter-aware registry/discovery service.
+* [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 
@@ -674,7 +679,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
 * [Bouncy Castle](https://www.bouncycastle.org/java.html) - All-purpose cryptographic library. JCA provider, wide range of functions from basic helpers to PGP/SMIME operations.
 * [Cryptomator](https://cryptomator.org/) - Multiplatform transparent client-side encryption of files in the cloud.
-* [Google Keyczar](https://github.com/google/keyczar) - Easy to use, yet safe encryption framework with key versioning.
+* [Keyczar](https://github.com/google/keyczar) - Easy to use, yet safe encryption framework with key versioning.
+* [Hdiv](https://github.com/hdiv/hdiv) - Runtime application self-protection against OWASP Top 10 security risks such us Insecure Direct Object References, SQL injection, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF) and much more.
 * [jjwt](https://github.com/jwtk/jjwt) - Java JWT: JSON Web Token for Java and Android.
 * [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services.
 * [OACC](http://oaccframework.org/) - Provides permission-based authorization services.
@@ -707,6 +713,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
 * [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
+* [Jtwig](http://jtwig.org/) - Modular, configurable and fully tested template engine.
 
 ## Testing
 
@@ -734,7 +741,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [MockServer](http://www.mock-server.com/) - Allows mocking of systems that are integrated with HTTP/S.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
-* [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
+* [PowerMock](https://github.com/jayway/powermock) - Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
@@ -813,6 +820,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Something to listen to while programming.*
 
+* [Java Off Heap](http://www.javaoffheap.com/)
 * [The Java Council](http://virtualjug.com/podcast/)
 * [The Java Posse](http://www.javaposse.com/) - Discontinued as of 02/2015.
 
