@@ -242,6 +242,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [Jedis](https://github.com/xetorthio/jedis) - A small client for interaction with redis, with methods for commands.
+* [jetcd](https://github.com/justinsb/jetcd) - A client library for etcd. 
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
@@ -699,6 +700,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jjwt](https://github.com/jwtk/jjwt) - Java JWT: JSON Web Token for Java and Android.
 * [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services.
 * [Keyczar](https://github.com/google/keyczar) - Easy to use, yet safe encryption framework with key versioning.
+* [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) - Advanced password strength estimation.
 * [OACC](http://oaccframework.org/) - Provides permission-based authorization services.
 * [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 * [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
