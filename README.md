@@ -287,6 +287,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Apache DeltaSpike](https://deltaspike.apache.org/) - CDI extension framework.
 * [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
+* [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
 * [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
 * [HK2](https://hk2.java.net) - Light-weight and dynamic dependency injection framework.
 
@@ -542,6 +543,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Detect uses of legacy Java APIs.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+* [Polyglot for Maven](https://github.com/takari/polyglot-maven/) - Extensions for Maven 3.3.1+ that allows the POM model to be written in dialects other than XML.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 
 ## Microservice
@@ -552,8 +554,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [consul-api](https://github.com/Ecwid/consul-api) - Client for the [Consul](https://www.consul.io/) API a distributed, highly available and datacenter-aware registry/discovery service.
 * [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
-* [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 * [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
+* [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 
 ## Monitoring
 
@@ -577,9 +579,9 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Native
 *For working with platform-specific native libraries.*
 
+* [JavaCPP](https://github.com/bytedeco/javacpp) - Provides efficient and easy access to native C++.
 * [JNA](https://github.com/java-native-access/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
 * [JNR](https://github.com/jnr/jnr-ffi) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/).
-* [JavaCPP](https://github.com/bytedeco/javacpp) - Provides efficient and easy access to native C++.
 
 ## Natural Language Processing
 
@@ -696,10 +698,10 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries for scientific computing, analysis and visualization.*
 
 * [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
+* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) - Modular, light and easy graph theoretic framework.
 * [GraphStream](http://graphstream-project.org/) - Library for modeling and analysis of dynamic graphs.
 * [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 * [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualisation (mainly Swing) and interaction with node-edge graphs.
-* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) - Modular, light and easy graph theoretic framework.
 
 ## Search
 
@@ -768,17 +770,18 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
 * [J8Spec](https://github.com/j8spec/j8spec/) - J8Spec is a library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
-* [JSONAssert](http://jsonassert.skyscreamer.org/) - Simplifies testing of JSON strings.
 * [JBehave](http://jbehave.org/) - Framework for Behavioural Driven Development.
-* [JFairy] (https://github.com/Codearte/jfairy) - Fake data generator.
+* [JFairy](https://github.com/Codearte/jfairy) - Fake data generator.
 * [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
 * [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
+* [JSONAssert](http://jsonassert.skyscreamer.org/) - Simplifies testing of JSON strings.
 * [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - A TestNG like dataprovider runner for JUnit.
 * [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests.
 * [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) - Descriptive behavioural specification framework.
 * [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
 * [MockServer](http://www.mock-server.com/) - Allows mocking of systems that are integrated with HTTP/S.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
+* [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports on whether instances of a given class are immutable.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
 * [pojo-tester](http://www.pojo.pl/) - Automatically performs tests on basic POJO-methods.
 * [PowerMock](https://github.com/jayway/powermock) - Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
@@ -786,7 +789,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
-* [Spock](http://spockframework.github.io/spock/docs/) - JUnit-compatible framework featuring an expressive Groovy-derived specification language.
 * [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [WireMock](http://wiremock.org/) - Stubs and mocks web services.
@@ -803,10 +805,10 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
 * [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - A library that helps to construct difficult regular expressions.
+* [JGit](https://eclipse.org/jgit/) - A lightweight pure Java library implementing the Git version control system.
 * [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3 compatible object storage server.
 * [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 * [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
-* [JGit](https://eclipse.org/jgit/) - A lightweight pure Java library implementing the Git version control system.
 
 ## Web Crawling
 
@@ -858,7 +860,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Core Java Volume I--Fundamentals](https://www.amazon.com/Core-Java-I-Fundamentals-10th/dp/0134177304)
 * [Core Java, Volume II--Advanced Features](https://www.amazon.com/Core-Java-II-Advanced-Features-10th/dp/0134177290)
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
-* [Java 8 in Action](http://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994/)
 * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 * [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
