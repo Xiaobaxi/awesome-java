@@ -63,6 +63,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Template Engine](#template-engine)
     - [Testing](#testing)
     - [Utility](#utility)
+    - [Version Managers](#version-managers)
     - [Web Crawling](#web-crawling)
     - [Web Frameworks](#web-frameworks)
 - [Resources](#resources)
@@ -89,7 +90,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded.
 * [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
 * [Java Modeling Language (JML)](http://www.eecs.ucf.edu/~leavens/JML/) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
-* [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
+* [JavaCC](https://javacc.org/) - Parser generator with syntactic lookahead.
 * [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
 * [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
 * [JUnit](http://junit.org/) - Common testing framework.
@@ -314,11 +315,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
 * [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
+* [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) - Circuit breaker design pattern for dropwizard.
 * [Hazelcast ![c]](http://hazelcast.org/) - Highly scalable in-memory datagrid with a free open-source version.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
+* [Ribbon](https://github.com/Netflix/ribbon) - Client side IPC library that is battle-tested in cloud. 
 * [Orbit](http://www.orbit.cloud/) - Virtual Actors, adding another level of abstraction to traditional actors.
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
+* [Zuul](https://github.com/Netflix/zuul) - A gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 
 ## Distributed Databases
 
@@ -359,7 +363,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
 * [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
-* [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats.
+* [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariants.
 * [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
 * [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
 * [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
@@ -373,10 +377,10 @@ A curated list of awesome Java frameworks, libraries and software.
 * [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
 * [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
 * [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
-* [Javaslang](http://www.javaslang.io/) - Functional component library that provides persistent data types and functional control structures.
 * [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 * [protonpack](https://github.com/poetix/protonpack) - Collection of stream utilities.
 * [StreamEx](https://github.com/amaembo/streamex) - Enhancing Java 8 Streams.
+* [Vavr](http://www.vavr.io/) - Functional component library that provides persistent data types and functional control structures.
 
 ## Game Development
 
@@ -530,7 +534,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 * [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 * [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
-* [jabba](https://github.com/shyiko/jabba) - Java Version Manager inspired by nvm.
 * [javaslang-circuitbreaker](https://github.com/javaslang/javaslang-circuitbreaker) - Functional fault tolerance library.
 * [JavaX](http://javax.ai1.lol/) - Reinventing and extending Java with a focus on simplicity.
 * [JBake](http://jbake.org) - Static website generator.
@@ -562,7 +565,9 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools that monitor applications in production.*
 
 * [AppDynamics ![c]](https://www.appdynamics.com/) - Performance monitor.
+* [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
 * [Glowroot](https://glowroot.org/) - Open source Java APM.
+* [Instrumental ![c]](https://instrumentalapp.com) - Real-time Java application performance monitoring. A commercial service with free development accounts.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
 * [Jolokia](https://jolokia.org/) - JMX over REST.
@@ -575,6 +580,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Prometheus](https://prometheus.io/) - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
 * [SPM ![c]](https://sematext.com/spm/) - Performance monitor with distributing transaction tracing for JVM apps.
 * [Stagemonitor](https://github.com/stagemonitor/stagemonitor) - Open source performance monitoring and transaction tracing for JVM apps.
+* [Sysmon](https://github.com/palantir/Sysmon) - Lightweight platform monitoring tool for Java VMs.
 
 ## Native
 *For working with platform-specific native libraries.*
@@ -760,6 +766,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools that test from model to the view.*
 
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
+* [ArchUnit](https://github.com/TNG/ArchUnit) - Architecture test library, to specify and assert architecture rules.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
@@ -772,6 +779,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [J8Spec](https://github.com/j8spec/j8spec/) - J8Spec is a library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
 * [JBehave](http://jbehave.org/) - Framework for Behavioural Driven Development.
 * [JFairy](https://github.com/Codearte/jfairy) - Fake data generator.
+* [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
 * [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
 * [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
 * [JSONAssert](http://jsonassert.skyscreamer.org/) - Simplifies testing of JSON strings.
@@ -809,6 +817,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3 compatible object storage server.
 * [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 * [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
+
+## Version Managers
+
+*Utilities that help setup the development shell environment and switch between different Java versions.*
+
+* [jabba](https://github.com/shyiko/jabba) - Java Version Manager inspired by nvm. Supports Mac OS X, Linux, Windows.
+* [jenv](https://github.com/gcuisinier/jenv) - Java Version Manager inspired by rbenv. Can configure globally or per project. Tested on Debian and Mac OS X.
+* [SDKMan](https://github.com/sdkman/sdkman-cli) - Java Version Manager inspired by RVM and rbenv. Supports UNIX-based platforms and Windows.
 
 ## Web Crawling
 
